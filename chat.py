@@ -4,7 +4,7 @@ import openai
 import os
 
 # Configurando a chave de API OpenAI (substitua pela sua) pegar do .env
-openai.api_key = 
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Definindo o modelo FastAPI
 app = FastAPI()
