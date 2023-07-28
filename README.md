@@ -1,4 +1,5 @@
 # gptapi
 instalar dependencias do requirements.txt
+rodar comando: 
 ```bash
-rodar comando: uvicorn chat:app --reload
+uvicorn chat:app --reload
